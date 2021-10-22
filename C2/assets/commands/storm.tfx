@@ -1,0 +1,29 @@
+name=storm
+description=storm api
+admin=false
+reseller=false
+vip=false
+==================== MENU SPLIT DONE ====================
+<<clear()>>
+This screen is powered by STORM API...
+[38;2;245;89;32m                              ╔═╗╔╦╗╔═╗╦═╗╔╦╗
+[38;2;245;87;38m                              ╚═╗ ║ ║ ║╠╦╝║║║
+[38;2;245;84;44m                              ╚═╝ ╩ ╚═╝╩╚═╩ ╩
+[38;2;245;82;50m    ╔════════════════╗╔════════════════╗╔════════════════╗╔════════════════╗
+[38;2;245;79;57m    ║ HOME-KILL      ║║ NFO            ║║ OVH-LITE       ║║ 100UP-BETA(VIP)║
+[38;2;245;77;63m    ║ HOME-FLOOD     ║║ NFO-VULN       ║║ OVHGAME-VULN   ║║ GAME-LITE      ║
+[38;2;245;74;69m    ║ HOME-AMPMIX    ║║ TCP-UNI        ║║ OVH-BETA(VIP)  ║║ ARK-255        ║
+[38;2;245;71;75m    ║ UDP-BYPASS     ║║ OVH-EXPLOIT    ║║ 100UP-EXPLOIT  ║║ R6-DROP        ║
+[38;2;245;69;82m    ║ TCP-BYPASS     ║║ OVH-VULN       ║║ 100UP-VULN     ║║ APEX-DROP      ║
+[38;2;245;66;88m    ║════════════════║║════════════════║║════════════════║║════════════════║
+[38;2;245;64;94m    ║ HTTP-POST      ║║ HTTP-BYPASS    ║║ AUTO-BYPASSV2  ║║ XXXXXXXXXXXXXX ║
+[38;2;245;61;101m    ║ HTTP-POSTV2    ║║ HTTP-BYPASSV2  ║║ UAM-BYPASS     ║║ XXXXXXXXXXXXXX ║
+[38;2;245;58;107m    ║ HTTP-GET       ║║ HTTP-BYPASSV3  ║║ UAM-BYPASSV2   ║║ XXXXXXXXXXXXXX ║
+[38;2;245;56;113m    ║ HTTP-GETV2     ║║ HTTP-KILL      ║║ UAM-BYPASSV3   ║║ XXXXXXXXXXXXXX ║
+[38;2;245;53;119m    ║ HTTP-GETV3     ║║ AUTO-BYPASS    ║║ XXXXXXXXXXXXXX ║║ XXXXXXXXXXXXXX ║
+[38;2;245;51;126m    ╚═════════╦══════╩╩════════════════╩╩════════════════╩╩═════╦══════════╝
+[38;2;245;48;132m              ║ PATH-VULN • KILLALLV6 • VPS-SLAP • WRA-X • TF2  ║
+[38;2;245;45;138m              ╚═════╦══════════════════════════════════════╦════╝
+[38;2;245;43;144m              ╔═════╩══════════════════════════════════════╩════╗
+[38;2;245;40;151m              ║        •  FORGET THIS ONE FIVEM-LITE  •         ║
+[38;2;245;38;157m              ╚═════════════════════════════════════════════════╝
