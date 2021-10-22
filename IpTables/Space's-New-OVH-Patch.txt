@@ -1,0 +1,4 @@
+iptables -I INPUT -p udp  --dport 13568 -j REJECT
+iptables -A INPUT -p udp -m udp --dport 13568 -j DROP
+iptables -I INPUT -p udp -m length --length 69 -j REJECT
+iptables -I INPUT -p udp -m length --length 1294 -j REJECT

@@ -1,0 +1,9 @@
+Patches made by @lquixdwifi
+iptables -t mangle -A PREROUTING -s 192.41.230.134 -j DROP
+iptables -A INPUT -p udp -m length --length 121 -j DROP ##Drops the length
+iptables -A INPUT -p tcp -i eth0 ! -s 0.0.0.0/0 --dport 7001 -j DROP ##Blocks the destination ports
+iptables -A OUTPUT -p tcp --dport 14335 -j DROP ##Blocks the source port
+iptables -t mangle -A PREROUTING -s 134.107.3.41 -j DROP
+iptables -A INPUT -p udp -m length --length 121 -j DROP ##Drops the length
+iptables -A INPUT -p udp -i eth0 ! -s 0.0.0.0/0 --dport 7001 -j DROP ##Blocks the destination ports
+iptables -A OUTPUT -p udp --dport 14335 -j DROP ##Blocks the source port

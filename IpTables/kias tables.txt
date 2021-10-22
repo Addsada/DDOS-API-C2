@@ -1,0 +1,206 @@
+whitelist ssh to only ur ip or more
+
+iptables -A INPUT -p tcp -s 135.148.159.30 --dport 22 -j ACCEPT
+iptables -A INPUT -p tcp -s 135.148.159.30 --dport 53 -j ACCEPT
+iptables -A INPUT -p udp -s 135.148.159.30 --dport 53 -j ACCEPT
+
+
+iptables -A INPUT -p tcp -s 0.0.0.0/0 --dport 22 -j REJECT
+iptables -A INPUT -p udp -s 0.0.0.0/0 --dport 53 -j REJECT
+iptables -A INPUT -p tcp -s 0.0.0.0/0 --dport 53 -j REJECT
+
+
+
+
+
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|f8f9fafbfcfdfeff|" -j DROP  
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|f1f2f3f4f5f6f7|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|eaebecedeeeff0|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|e3e4e5e6e7e8e9|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|dcdddedfe0e1e2|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|d5d6d7d8d9dadb|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|cecfd0d1d2d3d4|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|65666768696a6b|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|a4a5a6a7a8a9aa|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|abacadaeafb0b1|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|c0c1c2c3c4c5c6|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|b9babbbcbdbebf|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|b2b3b4b5b6b7b8|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|9d9e9fa0a1a2a3|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|969798999a9b9c|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|8f909192939495|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|88898a8b8c8d8e|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|81828384858687|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|7a7b7c7d7e7f80|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|73747576777879|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|5e5f6061626364|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|5758595a5b5c5d|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|50515253545556|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|494a4b4c4d4e4f|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|42434445464748|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|3b3c3d3e3f4041|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|3435363738393a|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|2d2e2f30313233|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|262728292a2b2c|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|1f202122232425|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|11121314151617|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|0a0b0c0d0e0f10|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|03040506070809|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|58992158992158992158992158992158992158992158992158992158992158992158992158992158992158992158992158|" -j DROP
+  iptables -A INPUT -p udp -m string --algo bm --hex-string "|18191a1b1c1d1e|" -j DROP # hehehe
+
+
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|f8f9fafbfcfdfeff|" -j DROP  
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|f1f2f3f4f5f6f7|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|eaebecedeeeff0|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|e3e4e5e6e7e8e9|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|dcdddedfe0e1e2|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|d5d6d7d8d9dadb|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|cecfd0d1d2d3d4|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|65666768696a6b|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|a4a5a6a7a8a9aa|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|abacadaeafb0b1|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|c0c1c2c3c4c5c6|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|b9babbbcbdbebf|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|b2b3b4b5b6b7b8|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|9d9e9fa0a1a2a3|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|969798999a9b9c|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|8f909192939495|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|88898a8b8c8d8e|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|81828384858687|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|7a7b7c7d7e7f80|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|73747576777879|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|5e5f6061626364|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|5758595a5b5c5d|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|50515253545556|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|494a4b4c4d4e4f|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|42434445464748|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|3b3c3d3e3f4041|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|3435363738393a|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|2d2e2f30313233|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|262728292a2b2c|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|1f202122232425|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|11121314151617|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|0a0b0c0d0e0f10|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|03040506070809|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|58992158992158992158992158992158992158992158992158992158992158992158992158992158992158992158992158|" -j DROP
+  iptables -A INPUT -p tcp -m string --algo bm --hex-string "|18191a1b1c1d1e|" -j DROP # hehehe
+
+
+
+OVH-BLAST AND OVH-CAPACITY
+iptables -I INPUT -p udp  --sport 41460 -j REJECT
+iptables -A INPUT -p udp -m udp --dport 16276 -j DROP
+iptables -A INPUT -p udp -m udp --dport 54236 -j DROP
+iptables -A INPUT -p udp -m udp --dport 48600 -j DROP
+iptables -I INPUT -p udp -m length --length 1:508 -j REJECT
+iptables -I INPUT -p tcp -m tcp --tcp-flags SYN, ACK --sport 74 -j DROP
+iptables -I INPUT -p tcp -m tcp --tcp-flags ACK, ACK --sport 59355 --dport 22 -j REJECT
+iptables -I INPUT -p tcp --tcp-flags ACK, SYN --sport --dport 22 -m length --length 66 -j DROP
+iptables -I INPUT -p tcp --tcp-flags SYN, ACK -m length --length 66 -j DROP
+iptables -I INPUT -p tcp --tcp-flags ACK, ACK -m length --length 60 -j DROP
+iptables -I INPUT -p tcp --tcp-flags ACK, ACK --dport 66
+
+
+
+
+OVH-VLV2
+iptables -I INPUT -p udp -m length --length 69 -j REJECT
+iptables -I INPUT -p udp  --sport 2303 --dport 22 -j REJECT
+iptables -A INPUT -p udp -m length --length 177:439 -j REJECT 	
+
+OVH-SPACE
+iptables -I INPUT -p udp  --dport 13568 -j REJECT
+iptables -A INPUT -p udp -m udp --dport 13568 -j DROP
+iptables -I INPUT -p udp -m length --length 69 -j REJECT
+iptables -I INPUT -p udp -m length --length 1294 -j REJECT
+
+OVH-KILLERV4 
+iptables -t mangle -A PREROUTING -s 192.41.230.134 -j DROP
+iptables -A INPUT -p udp -m length --length 121 -j DROP 
+iptables -A INPUT -p tcp -i eth0 ! -s 0.0.0.0/0 --dport 7001 -j DROP 
+iptables -A OUTPUT -p tcp --dport 14335 -j DROP 
+iptables -t mangle -A PREROUTING -s 134.107.3.41 -j DROP
+iptables -A INPUT -p udp -m length --length 121 -j DROP
+iptables -A INPUT -p udp -i eth0 ! -s 0.0.0.0/0 --dport 7001 -j DROP 
+iptables iptables -t mangle -A PREROUTING -p udp --dport 14335 -j DROP 
+
+
+100UP-AMP WORKING ON IT
+
+iptables -I INPUT -p udp -m length --length 500:943 -j DROP
+iptables -I INPUT -p udp  --sport 16000:50000 --dport 22 -j REJECT
+iptables -A INPUT -p tcp --tcp-flags ACK, ACK -m length --length 66:77 -j DROP
+iptables -t mangle -A PREROUTING -p udp -m multiport --sports 3072,3702 -j DROP
+iptables -t mangle -A PREROUTING -p tcp -m multiport --sports 3072,3702 -j DROP
+iptables -t mangle -A PREROUTING -p udp --sport 3283 -m length --length 1048 -j DROP
+iptables -t mangle -A PREROUTING -p tcp --sport 3283 -m length --length 1048 -j DROP
+iptables -t mangle -A PREROUTING -p udp --sport 32414 -j DROP
+
+BLACK-SYN WORKING ON
+iptables -I INPUT -p udp --sport 7001 -j DROP
+iptables -A INPUT -p tcp --tcp-flags ACK, SYN --sport 7001 --dport 56658 -m length --length 58:66 -j DROP
+iptables -A INPUT -p tcp --tcp-flags SYN, ACK --sport 7001 --dport 56658 -m length --length 58:66 -j DROP
+iptables -A INPUT -p tcp --tcp-flags FIN, SYN --sport 7001 --dport 56658 -m length --length 58:66 -j DROP
+iptables -A INPUT -p tcp --tcp-flags URG, ACK --sport 7001 --dport 56658 -m length --length 58:66 -j DROP
+iptables -A INPUT -p tcp --tcp-flags PSH, ACK --sport 7001 --dport 56658 -m length --length 58:66 -j DROP
+iptables -A INPUT -p tcp -m length --length 66 -j DROP
+
+OVH-MIX
+iptables -I INPUT -p udp  --dport 16276 -j REJECT
+iptables -A INPUT -p udp -m udp --dport 16276 -j DROP
+
+
+OVHPARTY-XV 
+iptables -I INPUT -p udp  --dport 12289 -j REJECT
+iptables -A INPUT -p udp -m udp --dport 12289 -j DROP
+iptables -A INPUT -p tcp --tcp-flag SYN, SYN --dport 1000:6000 -j REJECT
+
+OVH-INTEL & OVH-STORM
+iptables -A INPUT -p udp -m udp --sport 41460 -j REJECT
+
+
+CHAOS-XV
+iptables -I INPUT -p udp -m length --length 631 -j REJECT
+iptables -I INPUT -p udp -m length --length 633 -j REJECT
+iptables -I INPUT -p udp -m length --length 634 -j REJECT
+iptables -I INPUT -p udp -m length --length 687 -j REJECT
+iptables -I INPUT -p udp -m length --length 625 -j REJECT
+iptables -A INPUT -p udp -m udp --sport 11614 -j REJECT
+iptables -A INPUT -p udp -m udp --sport 1379 -j REJECT
+
+NFO-CLAP
+iptables -t mangle -A PREROUTING -p udp --sport 6881 -m length --length 60:330 -j DROP
+
+OVH-DOWN
+iptables -t mangle -A PREROUTING -p udp -m multiport --sports 3072,3702 -j DROP
+iptables -t mangle -A PREROUTING -p tcp -m multiport --sports 3072,3702 -j DROP
+
+ST KILLALL
+
+iptables -A INPUT -p tcp -m tcp --tcp-flags SYN,ACK SYN,ACK -j DROP  iptables -A INPUT -p tcp --tcp-flags ALL ALL -j DROP
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -m limit --limit 10/sec --limit-burst 15 -j ACCEPT
+iptables -A INPUT -p tcp --sport 80 --syn -m state --state NEW -m limit --limit 400/sec --limit-burst 15 -j ACCEPT
+iptables -A INPUT -p tcp -m connlimit --connlimit-above 150 -j DROP
+iptables -A INPUT -p tcp --sport 443 --syn -m state --state NEW -m limit --limit 400/sec --limit-burst 15 -j ACCEPT
+
+
+NFOUDP
+iptables -A INPUT -p tcp --tcp-flags ACK, FIN   --sport 6000:50000 -m length --length 60 -j DROP
+iptables -A INPUT -p tcp --tcp-flags ACK, PSH   --sport 6000:50000 -m length --length 60 -j DROP
+iptables -A INPUT -p udp --sport 20000:60000 --dport 22 -m length --length 66 -j DROP
+iptables -A INPUT -p tcp --tcp-flags ACK, ACK   --sport 40000:50000 -m length --length 66:78 -j DROP
+iptables -A INPUT -p tcp --tcp-flags ACK, PSH   --sport 6000:50000 -m length --length 60 -j DROP
+iptables -A INPUT -p udp --sport 20000:60000 --dport 22 -m length --length 66 -j DROP
+
+
+HOME
+iptables -A INPUT -p udp -m length --length 76:1414 -j DROP
+iptables -A INPUT -p tcp -m connlimit --connlimit-above 125 -j DROP
+iptables -A INPUT -p icmp -m connlimit --connlimit-above 125 -j DROP
+
+CLOSE PORTS
+iptables -I INPUT -p tcp -m tcp --dport 80 -j REJECT
+iptables -I INPUT -p tcp -m tcp --dport 93 -j REJECT
+iptables -I INPUT -p tcp -m tcp --dport 49 -j REJECT
+iptables -I INPUT -p tcp -m tcp --dport 89 -j REJECT
